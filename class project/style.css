@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.active {
+    color: orangered !important;
+}
+
+.maintenance {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.maintenance-img img {
+    width: 100%;
+}
+
+.maintenance-heading {
+    font-family: monospace;
+    color: #1c559d;
+    font-weight: 700;
+}
+
+.maintenance-words {
+    line-height: 2;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    border-radius: 60px;
+    background: #1c559d;
+    color: #fff;
+    padding: .6rem 1.3rem;
+    border: none;
+}
+
+.maintenance-img {
+    margin: 2.5rem 0;
+}
+
+.box {
+    margin: 4rem 0;
+    padding: 1.3rem;
+}
+
+.boxed {
+    border-radius: 1.3rem;
+    box-shadow: 2.6px 3px 7px 2px lightgrey;
+    padding: 50px 20px;
+    margin: 2.4rem 0;
+}
+
+.boxed-heading {
+    color: rgb(174, 174, 147);
+    margin: 1rem 0;
+}
+
+.boxes {
+    padding: 1.3rem;
+}
+
+.boxed-img {
+    font-size: 2rem;
+    background: #e2e2e2;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+
+.package {
+    margin: 3rem 0;
+    padding: 1.8rem;
+}
+
+.package-img img {
+    width: 100%;
+}
+
+.package-heading {
+    font-family: monospace;
+    color: rgb(108, 127, 143);
+    font-weight: 700;
+}
+
+.package-words {
+    line-height: 2;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.package-list {
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2.9rem 0;
+}
+
+.glyphicon-check {
+    color: #1c559d;
+}
+
+.second {
+    margin-left: 1.7rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.services-text ul li {
+    margin: 2.3rem 0;
+    margin-left: -2rem;
+}
+
+.services {
+    padding: 2.2rem;
+}
+
+.services-heading {
+    color: rgb(174, 174, 147);
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.services-img img {
+    width: 100%;
+}
+
+.services-text .glyphicon {
+    font-size: 2rem;
+    background: #e2e2e2;
+    border-radius: 50%;
+    padding: 1rem;
+    
+}
+
+.services-text ul li {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pm {
+    padding: 2.1rem;
+    margin: 2.6rem 0;
+}
+
+.pm-heading {
+    font-family: monospace;
+    color: rgb(108, 127, 143);
+    font-weight: 700;
+}
+
+.pm-img img {
+    width: 100%;
+}
+
+.pm-words {
+    line-height: 2;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pm-list li {
+    margin: 2.6rem 0;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.estimate {
+    padding: 2.2rem;
+}
+
+.estimate-heading {
+    font-family: monospace;
+    color: #1c559d;
+    font-weight: 700;
+}
+
+.estimate-img img {
+    width: 100%;
+}
+
+/* .estimate-btns {
+
+} */
+
+.repair {
+    margin-top: 4rem;
+    background: #092f5d;
+    min-height: 25vh;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.7rem 0;
+}
+
+
+/* .repair-btns {
+    font-size: 2.4rem;
+} */
+
+footer {
+    background: rgb(8, 45, 74);
+    margin-top: -2.2rem;
+    padding: 3rem 1.8rem;
+    color: #fff;
+}
+
+
+.nu-auto,
+.centre,
+.locations,
+.newsletter {
+    margin: 2.5rem 0;
+}
+
+#email {
+    border-radius: 1.4rem;
+    padding: 1rem;
+    margin: 1.3rem 0;
+    border: none;
+}
+
+input[type="submit"] {
+    background: red;
+    color: #fff;
+    border-radius: 1.4rem;
+    padding: 1rem 1.4rem;
+    margin: 1rem 0;
+    border: none;
+}
+
+.repair h2 {
+    margin: 1.3rem 0;
+    font-size: 3rem;
+}
+
+
+.repair-btns {
+    font-size: 2rem;
+    padding: .7rem 2.5rem;
+    margin: 2rem 0;
+}
+
+button {
+    font-size: 2.5rem !important;
+    border-radius: 1.3rem !important;
+}
+
+/* ************************************** Media Queries *******************************************/
+@media screen and (min-width: 520px) {
+    .boxes {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .boxed {
+        flex: 0 0 calc(50% - 3rem);
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .services,
+    .maintenance,
+    .package,
+    .pm,
+    .estimate {
+        display: flex;
+        justify-content: space-between;
+        margin: 20rem 0;
+    }
+
+    input[type="submit"] {
+        width: fit-content;
+    }
+
+    /* .navie {
+        margin-left: auto !important;
+    } */
+
+    .services-img,
+    .services-text,
+    .maintenance-img,
+    .maintenance-text,
+    .package-text,
+    .package-img,
+    .pm-text,
+    .pm-img,
+    .estimate-text,
+    .estimate-img {
+        flex: 0 0 calc(50% - 2rem);
+    }
+
+    .services-img,
+    .maintenance-img,
+    .pm-img,
+    .pm-text,
+    .estimate-text,
+    .package-text {
+        margin: auto 0;
+    }
+
+    .estimate-text h2,
+    .estimate-text p,
+    .estimate-text button {
+        margin: 2.3rem 0;
+    }
+
+    .estimate-text p {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1.6rem;
+    }
+
+    .nav-link:hover {
+        text-decoration: none;
+    }
+
+    .footer-wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .nu-auto,
+    .centre,
+    .locations,
+    .newsletter {
+        flex: 0 0 calc(25% - 3rem);
+    }
+
+    .centre,
+    .newsletter {
+        /* border: 2px solid #fff; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        text-align: left;
+    }
+
+    .centre h4 {
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .centre ul {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+
+    .centre ul li {
+        margin: 1rem 0;
+    }
+    
+}
+
+@media screen and (min-width:912px) {
+    .boxes {
+        max-width: 90vw;
+        margin: 1rem auto;
+        justify-content: center;
+    }
+
+    .boxed {
+        flex: 0 0 calc(25% - 2rem);
+        margin: auto 1rem;
+        padding: 5rem 2rem;
+    }
+
+    .maintenance {
+        padding: 2rem;
+    }
+    
+
+    
+}
